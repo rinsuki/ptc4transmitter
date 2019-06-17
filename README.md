@@ -8,6 +8,8 @@
 
 # 使い方
 
+:warning: この説明まだ序盤しか書いてないからラズパイを買いに走るのはまだ早いですよ!!
+
 ## 必要なもの
 
 - **ある程度のLinuxに関する知識**
@@ -65,6 +67,8 @@
 
 https://www.raspi.jp/2016/07/pizero-usb-otg/ とかを見るといいんじゃないでしょうか。
 
+あと、`pi`ユーザー、`root`ユーザーのパスワードは一応変えておいたほうがいいと思います。sshdのポートも変えたほうがいいかも。
+
 再起動後でも無線LANに自動で接続してWi-Fi経由でSSHができるようになったら進みましょう。
 
 ## 1. Raspberry PiをUSBゲストにする
@@ -97,3 +101,30 @@ git clone https://github.com/rinsuki/ptc4transmitter
 ```
 します。
 
+```
+Cloning into 'ptc4transmitter'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 0), reused 3 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+```
+
+みたいなログが流れたら成功です。
+カレントディレクトリに`ptc4transmitter`というフォルダができているのを確認してください。
+
+## 3. カーネルモジュールのビルド
+
+あとで書く
+
+## 4. 送信プログラムのビルド
+
+あとで書く
+
+## 5. プチコン4でのプログラムのダウンロード
+
+あとで書く
+
+## 6. 転送
+
+あとで書く
