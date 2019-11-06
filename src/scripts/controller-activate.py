@@ -1,4 +1,4 @@
-# Push L+R → wait → A → neutral, useful in activate controller screen of Switch
+# Push L+R → neutral, useful in activate controller screen of Switch
 import time
 
 neutral = bytes([
